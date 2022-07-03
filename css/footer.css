@@ -1,0 +1,39 @@
+:root {
+  --branco-principal: #ffffff;
+  --cinza-secundario: #c0c0c0;
+  --botao-azul: #167bf7;
+  --cor-de-fundo: #00030c;
+  --fonte-principal: "Inter", sans-serif;
+}
+
+.rodape {
+  text-align: center;
+  margin: 5em 3em;
+}
+
+.rodape__logo {
+  margin-bottom: 1em;
+}
+.rodape__lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-left: 0em;
+}
+
+.rodape__link a {
+  color: var(--branco-principal);
+  text-decoration: none;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.rodape__link a:hover {
+  color: var(--botao-azul);
+}
+
+.rodape__texto {
+  color: var(--cinza-secundario);
+  margin: 1em 0;
+  font-size: 14px;
+}
